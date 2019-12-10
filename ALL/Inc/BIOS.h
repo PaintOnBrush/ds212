@@ -4,7 +4,7 @@
 #ifndef __BIOS_H
 #define __BIOS_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 extern u16 AutoPwr_Cnt,AutoPwr_Cnt,PwrCnt,PD_Cnt,RunCnt, BeepCnt;
 extern u16 Key_Wait_Cnt,Key_Repeat_Cnt;

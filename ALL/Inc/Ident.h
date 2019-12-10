@@ -4,7 +4,7 @@
 #ifndef __IDENT_H
 #define __IDENT_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 #endif
 /********************************* END OF FILE ********************************/

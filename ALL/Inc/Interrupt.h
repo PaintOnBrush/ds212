@@ -4,7 +4,7 @@
 #ifndef __INTERRUPT_H
 #define __INTERRUPT_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 extern u8    KeymS_F;
 extern vu16  KeymS_Cnt;

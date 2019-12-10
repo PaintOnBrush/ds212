@@ -4,7 +4,7 @@
 #include "Interrupt.h"
 #include "usb_istr.h"
 #include "Drive.h"
-#include "Bios.h"
+#include "BIOS.h"
 
 /******************************************************************************/
 /*            Cortex-M4 Processor Exceptions Handlers                         */

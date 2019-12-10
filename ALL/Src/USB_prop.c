@@ -8,7 +8,7 @@
 #include "USB_prop.h"
 #include "USB_lib.h"
 #include "Version.h"
-//#include "Bios.h"
+//#include "BIOS.h"
 
 u32 Max_Lun = 0;
 

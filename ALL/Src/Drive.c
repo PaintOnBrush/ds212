@@ -10,10 +10,10 @@
 #include "Draw.h"
 #include "Menu.h"
 #include "Func.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "Disk.h"
 #include "LCD.h"
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 
 u16  Key_S_Time = 300;

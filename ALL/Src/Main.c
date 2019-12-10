@@ -7,13 +7,12 @@ Version   : DS212                                                 Author : bure
 #include "Drive.h"
 #include "Func.h"
 #include "Draw.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "Menu.h"
 #include "Disk.h"
 #include "LCD.h"
 #include "FAT12.h"
 #include "File.h"
-#include "Math.h"
 
 /*******************************************************************************
 

@@ -2,7 +2,7 @@
  File Name : Menu.h
  Version   : DS212                                                Author : bure
 *******************************************************************************/
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 #define   MENU_MAX  2
 

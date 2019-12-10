@@ -5,7 +5,7 @@ Project Name: DS212
 #include <stdlib.h>
 #include "Version.h"
 #include "string.h"
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 #include "stm32f30x_flash.h"
 #include "Draw.h"
 #include "Func.h"
@@ -16,8 +16,8 @@ Project Name: DS212
 #include "Flash.h"
 #include "Func.h"
 #include "Drive.h"
-#include "Bios.h"
-#include "Lcd.h"
+#include "BIOS.h"
+#include "LCD.h"
 
 #define Page_Address    0x08007800
 #define Kpg_Address     0x08007800  /* Save calibrated Kpg[] zero offset and gain coefficient. */

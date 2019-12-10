@@ -4,7 +4,7 @@
 *******************************************************************************/
 #include <string.h>
 #include "Draw.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "LCD.h"
 #include "Func.h"
 #include "Menu.h"

@@ -4,7 +4,7 @@
 *******************************************************************************/
 #include "Version.h"
 #include "Flash.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "stm32f30x_spi.h"
 #include "stm32f30x_flash.h"
  

@@ -14,7 +14,6 @@
 #include "Func.h"
 #include "Drive.h"
 #include "File.h"
-#include "math.h"
 
 #define Menu_X    263
 #define Menu_Y    183

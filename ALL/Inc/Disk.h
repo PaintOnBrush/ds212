@@ -4,7 +4,7 @@
 #ifndef __DISK_H
 #define __DISK_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 #define SECTOR_SIZE    SEC_SIZE
 #define SECTOR_CNT     SEC_AMNT

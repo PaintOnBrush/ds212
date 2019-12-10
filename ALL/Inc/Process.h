@@ -5,7 +5,7 @@
 #ifndef __PROEESS_H
 #define __PROEESS_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 #define   PRE_SMPL    125
 
 //==========+==========+==========+==========+==========+==========+==========+

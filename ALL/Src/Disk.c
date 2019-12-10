@@ -6,7 +6,7 @@
 #include "Flash.h"
 #include "Ident.h"
 #include "Disk.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "USB_scsi.h"
 #include "USB_regs.h"
 #include "USB_conf.h"

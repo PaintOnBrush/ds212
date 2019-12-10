@@ -4,7 +4,7 @@
 #ifndef __VERSION_H
 #define __VERSION_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 #include <string.h>
 #include <stdlib.h>
 #include "Option.h"

@@ -5,7 +5,7 @@
 #ifndef __FILE_H
 #define __FILE_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 extern vu8  DFS_FUNC;
 extern u8   F_Sector[];

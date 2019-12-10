@@ -4,7 +4,7 @@
 *******************************************************************************/
 #ifndef __FAT12_H
 #define __FAT12_H
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 //-------FLASH-----W25Q64BV--------------------------------------------------//
 #define FILE_BASE_8M    0x7000     /* File area start address */

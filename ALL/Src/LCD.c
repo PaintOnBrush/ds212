@@ -5,7 +5,7 @@
 #include "Version.h"
 #include "Disk.h"
 #include "LCD.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "Draw.h"
 
 #ifdef LCD_ILI_9341

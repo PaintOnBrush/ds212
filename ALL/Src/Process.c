@@ -4,13 +4,12 @@
 *******************************************************************************/
 #include "Version.h"
 #include "Process.h"
-#include "Bios.h"
+#include "BIOS.h"
 #include "Func.h"
 #include "Draw.h"
 #include "Menu.h"
 #include "Drive.h"
 #include "File.h"
-#include "Math.h"
 
 void __Mem32Fill(u32* pMem, u32 Data, u32 n);
 void WaveLtdOut(u8* Buf, s16 Value);

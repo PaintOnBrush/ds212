@@ -5,7 +5,7 @@
 #ifndef __DRAW_H
 #define __DRAW_H
 
-#include "STM32F30x.h"
+#include "stm32f30x.h"
 
 //========== Waveform display window related definitions ===========
 
