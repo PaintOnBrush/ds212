@@ -551,37 +551,37 @@ void Show_Item(u8 k)
       Draw_Circle_S(CH_Col[k], Menu_X, Sy, 14, 6);// Draw item bar color.
       break;
  //-------------------The third page------------------------------------------
-    case FILE:
+    case FILES:
       Sx=Menu_X+8;                                // Menu heading
       Sy=ITEM_Y-rowh+3;
-      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILE]);
+      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILES]);
       Sy=ITEM_Y-rowh;
       Draw_Circle_S(P3Menu_Col[0], Menu_X, Sy, 28, 6);// Draw item bar color.
       break;
     case WAVE:
       Sx=Menu_X+8;                                // Menu heading
       Sy=ITEM_Y-rowh+3;
-      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILE]);
+      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILES]);
       Sy=ITEM_Y-rowh;
       Draw_Circle_S(P3Menu_Col[1], Menu_X, Sy, 28, 6);// Draw item bar color.
       break;
     case SYSTEM:
       Sx=Menu_X+8;                                // Menu heading
       Sy=ITEM_Y-rowh+3;
-      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILE]);
+      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILES]);
       Sy=ITEM_Y-rowh;
       Draw_Circle_S(P3Menu_Col[2], Menu_X, Sy, 28, 6);// Draw item bar color.
       break;
     case CALIBRATION:
       Sx=Menu_X+8;                                // Menu heading
       Sy=ITEM_Y-rowh+3;
-      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILE]);
+      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILES]);
       Sy=ITEM_Y-rowh;
       Draw_Circle_S(P3Menu_Col[3], Menu_X, Sy, 28, 6);      // Draw item bar color.
       break;
     case PRO:
       Sy=ITEM_Y-rowh+3;
-      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILE]);
+      PrintStr6x8(PRN, (u8*)&Options_Str[k-FILES]);
       Sy=ITEM_Y-rowh;
       Draw_Circle_S(P3Menu_Col[4], Menu_X, Sy, 28, 6);      // Draw item bar color.
       break;
@@ -741,7 +741,7 @@ void Show_Title(void)
       break;
     case WINDOWS:
       break;
-    case FILE:
+    case FILES:
       break;
     case WAVE:
       break;
@@ -873,7 +873,7 @@ void Show_PopMenu(u8 Cur_Item)
     index=PopMenu3_Base[item];
     ptr1=(u8*)&PM3_Str[index];
     switch(j){
-    case FILE:
+    case FILES:
       FMenu_Pop(Cur_Limit,Cur_Item,ptr1);
       break;
     case WAVE:
@@ -1524,7 +1524,7 @@ void Update_Proc(void)
     j= 7+6+menu.menu_index[menu.current];
     index=PopMenu3_Base[menu.menu_index[menu.current]];
     switch(j){
-    case FILE:
+    case FILES:
       break;
     case WAVE:
       if(Cur_PopItem==1){                                    // Waveform type options.

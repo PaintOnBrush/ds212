@@ -99,7 +99,7 @@ enum{
 enum{ 
   CH1,   CH2,   CH3,    TIMEBASE,    TRIGGER, COURSOR, WINDOWS, 
   MEA_1, MEA_2, MEA_3,  MEA_4,       MEA_5,   MEA_BAT,  
-  FILE,  WAVE,  SYSTEM, CALIBRATION, PRO,     ABOUT,           
+  FILES, WAVE,  SYSTEM, CALIBRATION, PRO,     ABOUT,           
 };
 
 void Update_Info(void);
