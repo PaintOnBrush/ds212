@@ -5,6 +5,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include "Version.h"
 #include "Process.h"
 #include "Menu.h"
@@ -764,7 +765,7 @@ void Show_PopMenu(u8 Cur_Item)
   #define LEN 9
   u16 i,j,index;
   u8  *ptr1,*ptr2;
-  u8  ptr[64],ptr3[6], item = 0;
+  u8  ptr[64],ptr3[8], item = 0;
 
   memset(ptr,0,64);
   switch (menu.current){
